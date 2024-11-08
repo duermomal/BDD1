@@ -1,0 +1,244 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.7.10">
+  <diagram name="Page-1" id="K4hMkmN_sDE4iTYiur20">
+    <mxGraphModel dx="1900" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-32" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="194.5" y="497.5" width="107" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-4" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="193" y="405" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-1" target="R9cdzwn1HRtP-34XFEVP-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-1" value="Turista" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="264.5" y="140" width="108" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-2" value="&lt;u&gt;id pasajero&lt;/u&gt;&lt;div&gt;nombre&lt;br&gt;&lt;div&gt;apellido paterno&lt;/div&gt;&lt;div&gt;apellido materno&lt;/div&gt;&lt;div&gt;tipo documento&lt;/div&gt;&lt;div&gt;documento!!&lt;/div&gt;&lt;div&gt;fecha nacimiento&lt;/div&gt;&lt;div&gt;email!!&lt;/div&gt;&lt;div&gt;telefonos*&lt;/div&gt;&lt;div&gt;contraseña (admite null)&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="98.5" y="30" width="150" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-4" value="Destino Turistico" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="623.5" y="596.5" width="104.5" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-5" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;id destino&lt;/u&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;terminal origen&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;terminal destino&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;importe&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;fecha y hora salida&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;duracion aproxi&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;informacion general&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="745.5" y="555" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-6" value="Bus" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="199" y="599.5" width="98" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-8" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;id bus&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;marca&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tipo&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;capacidad asientos&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="63" y="588" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-9" target="yB99STIuWFp8IBDlZPyS-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-9" value="Pasaje" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="622.25" y="140" width="106.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-10" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;id pasaje&lt;/u&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;estado (Utilizado/No utilizado)&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="740.5" y="145" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-11" value="Departamento" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="832" width="98" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-12" value="&lt;u&gt;id departamento&lt;/u&gt;&lt;div&gt;nombre&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="68" y="828" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-14" value="Terminal" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="621.75" y="837" width="108.25" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-15" value="&lt;u&gt;id terminal&lt;/u&gt;&lt;div&gt;nombre&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="738" y="828" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-19" target="yB99STIuWFp8IBDlZPyS-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-19" target="yB99STIuWFp8IBDlZPyS-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-19" value="compra" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450.5" y="140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-23" value="se le asigna" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="385.5" y="412.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-23" target="yB99STIuWFp8IBDlZPyS-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+            <mxPoint x="640" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-23" target="R9cdzwn1HRtP-34XFEVP-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515.5" y="415" as="sourcePoint" />
+            <mxPoint x="85.5" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-27" target="yB99STIuWFp8IBDlZPyS-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-27" value="tiene" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="635.5" y="380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-30" target="yB99STIuWFp8IBDlZPyS-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-30" target="yB99STIuWFp8IBDlZPyS-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-30" value="se dirige" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="428" y="598" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-33" target="yB99STIuWFp8IBDlZPyS-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-33" target="yB99STIuWFp8IBDlZPyS-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-33" value="tiene" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="428" y="833" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-39" value="origen" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="515.5" y="715" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-42" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="378.5" y="135" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-43" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="580.5" y="135" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-44" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="675" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-47" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="618" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-48" value="(0,1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="573.5" y="623" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-49" value="(1,1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="287" y="623" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-50" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="293" y="826" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-51" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="578" y="826" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yB99STIuWFp8IBDlZPyS-52" value="destino" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="753" y="715" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-1" value="pertenece" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="208" y="505" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-2" value="Asiento" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="203" y="415" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="R9cdzwn1HRtP-34XFEVP-32" target="yB99STIuWFp8IBDlZPyS-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="498" as="sourcePoint" />
+            <mxPoint x="318" y="603" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-7" value="&lt;u&gt;nro fila&lt;/u&gt;&lt;div&gt;&lt;u&gt;letra&lt;/u&gt;&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="133" y="405" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-8" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="618" y="653" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-11" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="618" y="796" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-12" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="708" y="793" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-13" value="fecha compra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440.5" y="110" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="R9cdzwn1HRtP-34XFEVP-32" target="R9cdzwn1HRtP-34XFEVP-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="248" y="490" as="sourcePoint" />
+            <mxPoint x="5.5" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-39" target="yB99STIuWFp8IBDlZPyS-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="495.5" y="735" as="sourcePoint" />
+            <mxPoint x="620" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-14" target="yB99STIuWFp8IBDlZPyS-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585.5" y="805" as="sourcePoint" />
+            <mxPoint x="495.5" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-18" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-52" target="yB99STIuWFp8IBDlZPyS-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675.5" y="765" as="sourcePoint" />
+            <mxPoint x="725.5" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yB99STIuWFp8IBDlZPyS-14" target="yB99STIuWFp8IBDlZPyS-52" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="655.5" y="785" as="sourcePoint" />
+            <mxPoint x="705.5" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="R9cdzwn1HRtP-34XFEVP-20" target="R9cdzwn1HRtP-34XFEVP-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-20" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="304.5" y="225" width="28" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="R9cdzwn1HRtP-34XFEVP-23" target="R9cdzwn1HRtP-34XFEVP-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-23" value="Turista mercosur" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="264.5" y="305" width="108" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-25" value="Beneficio" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-20" y="305" width="103" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="R9cdzwn1HRtP-34XFEVP-26" target="R9cdzwn1HRtP-34XFEVP-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-26" value="tiene" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="133.5" y="307.5" width="80" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-31" value="&lt;div&gt;&lt;u&gt;id beneficio&lt;/u&gt;&lt;/div&gt;descripcion" style="text;html=1;align=right;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="305" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R9cdzwn1HRtP-34XFEVP-33" value="dudas&lt;br&gt;- Cada destino estará asociado a un único bus? no pueden ir varios buses al mismo destino?&lt;div&gt;pueden haber varias terminales de destino por destino turistico?&lt;/div&gt;&lt;div&gt;una terminal puede ser origen de varios destinos? un mismo destino puede tener como origen varias terminales?&lt;/div&gt;&lt;div&gt;capacidad de asientos se calcula o es dato de la entidad Bus?&lt;/div&gt;&lt;div&gt;duracion aprox es parte de la relacion destino?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25.5" y="960" width="620" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-1" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="83" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-2" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="234.5" y="300" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-3" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="297" y="412.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-4" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="568" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-5" value="n" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="242" y="467.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-6" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="566.5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-8" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="698" y="653" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9HbZmc4yPZ4G4Pfw5jN-9" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Modelo Relacional&lt;/h1&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;&quot;&gt;Turistas&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;&quot;&gt;(&lt;/font&gt;&lt;u style=&quot;background-color: initial; text-wrap: nowrap; text-align: right;&quot;&gt;id pasajero,&amp;nbsp;&lt;/u&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;nombre,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;apellido_pat,&lt;font style=&quot;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;apellido_mat,t&lt;/span&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;ipo_doc,&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;documento,&lt;/span&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;fecha_nac,&lt;/span&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;email&lt;/span&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;,pass&lt;/span&gt;&lt;span style=&quot;text-align: right; text-wrap: nowrap; background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK: id_pasajero&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;b&gt;Telefonos&lt;/b&gt;(&lt;u&gt;nro_telefono&lt;/u&gt;, &lt;u&gt;id_pasajero&lt;/u&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK: nro_telefono, id_pasajero&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_pasajero -&amp;gt; Turistas.id_pasajero&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;b&gt;Beneficios&lt;/b&gt;(&lt;u&gt;id_beneficio&lt;/u&gt;, descripcion)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK:id_beneficio&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;b&gt;Turista-Beneficio&lt;/b&gt;(&lt;u&gt;id_beneficio&lt;/u&gt;, &lt;u&gt;id_pasajero&lt;/u&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK: id_beneficio, id_pasajero&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_beneficio -&amp;gt; Beneficios.id_beneficio&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_pasajero -&amp;gt; Turistas.id_pasajero&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;b&gt;Pasajes&lt;/b&gt;(&lt;u&gt;id_pasaje&lt;/u&gt;, estado, id_pasajero, id_destino)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK: id_pasaje&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_pasajero -&amp;gt; Turistas.id_pasajero&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_destino -&amp;gt; Destinos_Turisticos.id_destino&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;b&gt;Destinos_Turisticos&lt;/b&gt;(&lt;u&gt;id_destino&lt;/u&gt;, t_origen, t_destino, importe, fecha_hora, duracion_aprox, id_bus)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK: id_destino&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_bus -&amp;gt; Buses.id_bus&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;b&gt;Buses&lt;/b&gt;(&lt;u&gt;id_bus&lt;/u&gt;, marca, tipo, cap_asientos )&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-wrap: nowrap; background-color: initial;&quot;&gt;PK: id_bus&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;Asientos&lt;/b&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;(&lt;u&gt;nro_fila&lt;/u&gt;, &lt;u&gt;letra&lt;/u&gt;, &lt;u&gt;id_bus&lt;/u&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;PK: nro_fila, letra, id_bus&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;FK: id_bus -&amp;gt; Buses.id_bus&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;Terminales&lt;/b&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;(&lt;/span&gt;&lt;u style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;id_terminal&lt;/u&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap; background-color: initial;&quot;&gt;, nombre, id_destino, id_depto)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;PK: id_terminal&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;FK: id_Destino -&amp;gt; Destinos_Turisticos.id_destino&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;FK: id_depto -&amp;gt; Departamentos.id_departamento&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;b style=&quot;&quot;&gt;Departamentos&lt;/b&gt;(&lt;u&gt;id_departamento&lt;/u&gt;, nombre)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;PK: id_departamento&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;&lt;b&gt;Dest_Tur_Terminal_Origen&lt;/b&gt;(&lt;u&gt;id_destino&lt;/u&gt;, &lt;u&gt;id_terminal&lt;/u&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;PK: id_destino, id_terminal&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;FK: id_destino -&amp;gt; Destinos_Turisticos.id_destino&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 14px; text-wrap: nowrap;&quot;&gt;FK: id_terminal -&amp;gt; Terminales.id_terminal&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="62.5" width="650" height="1367.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

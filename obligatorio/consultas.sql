@@ -13,12 +13,12 @@ from Turistas tur
 	
 /*
 
-2. Listar todos los datos de los buses con más de 35 asientos que no tengan asignado
-ningún destino que parta el día de mañana.
+2. Listar todos los datos de los buses con mï¿½s de 35 asientos que no tengan asignado
+ningï¿½n destino que parta el dï¿½a de maï¿½ana.
 
 */
 
-select * 
+select bus.* 
 from buses bus
 left join Destinos_Turisticos dt on bus.id_bus = dt.id_bus
  where bus.cap_asientos > 35 and dt.fecha_hora <> getdate()+1 or dt.fecha_hora is null
@@ -26,7 +26,7 @@ left join Destinos_Turisticos dt on bus.id_bus = dt.id_bus
 
 /*
 3. Listar todos los datos de los pasajeros para los cuales haya registrados en el sistema
-más de 5 pasajes comprados.
+mï¿½s de 5 pasajes comprados.
 */
 
 select 
@@ -64,7 +64,7 @@ from Turistas tur
 		where pas.id_destino = 255
 /*
 5. Listar todos los idviaje y cantidad de pasajes comprados durante el mes de Setiembre de
-este año para c/u de los destinos del pasajero cuyo correo es soyturista@gmail.com
+este aï¿½o para c/u de los destinos del pasajero cuyo correo es soyturista@gmail.com
 comprados en Setiembre del 2017. La lista debe estar ordenada por idviaje ascendente.
 */
 

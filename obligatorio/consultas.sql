@@ -43,7 +43,17 @@ select
 	count(tur.id_pasajero) pasajes_comprados
 from turistas tur  
 	join Pasajes pas on tur.id_pasajero = pas.id_pasajero
-		group by tur.id_pasajero, tur.nombre,tur.apellido_paterno,tur.apellido_materno,tur.tipo_doc,tur.documento,tur.fecha_nacimiento,tur.email,tur.pass, tur.categoria
+		group by 
+		tur.id_pasajero, 
+		tur.nombre,
+		tur.apellido_paterno,
+		tur.apellido_materno,
+		tur.tipo_doc,
+		tur.documento,
+		tur.fecha_nacimiento,
+		tur.email,
+		tur.pass, 
+		tur.categoria
 		having count(tur.id_pasajero) > 5
 
 
@@ -68,7 +78,10 @@ este a�o para c/u de los destinos del pasajero cuyo correo es soyturista@gmail
 comprados en Setiembre del 2017. La lista debe estar ordenada por idviaje ascendente.
 */
 
-select dt.id_destino, count(pas.id_pasaje) cant_pasajes, left(pas.fecha_compra, 7) anio_mes_compra --, tur.email
+select 
+dt.id_destino, 
+count(pas.id_pasaje) cant_pasajes, 
+left(pas.fecha_compra, 7) anio_mes_compra 
 from Turistas tur 
 join Pasajes pas on tur.id_pasajero = pas.id_pasajero
 join Destinos_Turisticos dt on dt.id_destino = pas.id_destino
@@ -76,5 +89,5 @@ where
 	tur.email = 'soyturista@gmail.com' 
 	and year(pas.fecha_compra) = year(getdate()) 
 	and month(pas.fecha_compra) = 9
-group by dt.id_destino, left(pas.fecha_compra, 7) --, tur.email
+group by dt.id_destino, left(pas.fecha_compra, 7) 
 order by dt.id_destino asc

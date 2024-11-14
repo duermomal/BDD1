@@ -20,6 +20,7 @@ CREATE TABLE Telefonos (
     nro_telefono NUMERIC(20) NOT NULL,
     id_pasajero NUMERIC(20) NOT NULL,
     CONSTRAINT PK_TEL PRIMARY KEY (nro_telefono, id_pasajero),
+	CONSTRAINT UQ_TELEFONOS_TEL UNIQUE (nro_telefono),
     CONSTRAINT FK_TELEFONOS_TURISTAS FOREIGN KEY (id_pasajero) REFERENCES Turistas(id_pasajero)
 );
 
@@ -46,6 +47,23 @@ CREATE TABLE Buses (
     CONSTRAINT PK_BUS PRIMARY KEY (id_bus)
 );
 
+
+CREATE TABLE Departamentos (
+    id_departamento NUMERIC(20) IDENTITY NOT NULL,
+    nombre VARCHAR(50),
+    CONSTRAINT PK_DEP PRIMARY KEY (id_departamento)
+);
+
+
+CREATE TABLE Terminales (
+    id_terminal NUMERIC(20) IDENTITY NOT NULL,
+    nombre VARCHAR(25),
+    id_depto NUMERIC(20),
+    CONSTRAINT PK_TER PRIMARY KEY (id_terminal),
+    CONSTRAINT FK_TERMINALES_DEPARTAMENTOS FOREIGN KEY (id_depto) REFERENCES Departamentos(id_departamento)
+);
+
+
 CREATE TABLE Destinos_Turisticos (
     id_destino NUMERIC(20) NOT NULL,
     t_origen NUMERIC(20),
@@ -55,7 +73,9 @@ CREATE TABLE Destinos_Turisticos (
     duracion_aprox NUMERIC(10),
     id_bus NUMERIC(20),
     CONSTRAINT PK_DEST PRIMARY KEY (id_destino),
-    CONSTRAINT FK_DESTINOS_BUSES FOREIGN KEY (id_bus) REFERENCES Buses(id_bus)
+    CONSTRAINT FK_DESTINOS_BUSES FOREIGN KEY (id_bus) REFERENCES Buses(id_bus),
+	CONSTRAINT FK_DESTINOS_T_OG FOREIGN KEY (t_origen) REFERENCES Terminales(id_terminal),
+	CONSTRAINT FK_DESTINOS_T_DES FOREIGN KEY (t_destino) REFERENCES Terminales(id_terminal)
 );
 
 CREATE TABLE Asientos (
@@ -82,30 +102,4 @@ CREATE TABLE Pasajes (
 	CONSTRAINT FK_ASIENTOS FOREIGN KEY (nro_fila_asiento, letra_asiento, id_bus) REFERENCES Asientos(nro_fila, letra, id_bus)
 );
 
-
-CREATE TABLE Departamentos (
-    id_departamento NUMERIC(20) IDENTITY NOT NULL,
-    nombre VARCHAR(50),
-    CONSTRAINT PK_DEP PRIMARY KEY (id_departamento)
-);
-
-CREATE TABLE Terminales (
-    id_terminal NUMERIC(20) IDENTITY NOT NULL,
-    nombre VARCHAR(25),
-    id_destino NUMERIC(20),
-    id_depto NUMERIC(20),
-    CONSTRAINT PK_TER PRIMARY KEY (id_terminal),
-    CONSTRAINT FK_TERMINALES_DESTINOS FOREIGN KEY (id_destino) REFERENCES Destinos_Turisticos(id_destino),
-    CONSTRAINT FK_TERMINALES_DEPARTAMENTOS FOREIGN KEY (id_depto) REFERENCES Departamentos(id_departamento)
-);
-
-
-
-CREATE TABLE Dest_Tur_Terminal_Origen (
-    id_destino NUMERIC(20) NOT NULL,
-    id_terminal NUMERIC(20) NOT NULL,
-    CONSTRAINT PK_DES_TER PRIMARY KEY (id_destino, id_terminal),
-    CONSTRAINT FK_DES_TER_DESTINOS FOREIGN KEY (id_destino) REFERENCES Destinos_Turisticos(id_destino),
-    CONSTRAINT FK_DES_TER_TERMINALES FOREIGN KEY (id_terminal) REFERENCES Terminales(id_terminal)
-);
 

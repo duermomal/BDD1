@@ -36,6 +36,20 @@ VALUES
 ('Mercedes', 'Loft', 45),
 ('Volvo', 'Loft', 45);
 
+-- Insertar datos en Departamentos
+INSERT INTO Departamentos(nombre)
+VALUES ('Lima'), ('Cusco'), ('Arequipa'), ('Montevideo'), ('Mallorca');
+
+-- Insertar datos en Terminales
+INSERT INTO Terminales (nombre,id_depto)
+VALUES 
+('Terminal Lima',  1),
+('Terminal Cusco',  2),
+('Terminal Arequipa', 3),
+('Terminal Montevideo',  4),
+('Terminal Mallorca', 5);
+
+
 -- Insertar datos en Destinos_Turisticos
 INSERT INTO Destinos_Turisticos (id_destino, t_origen, t_destino, importe, fecha_hora, duracion_aprox, id_bus)
 VALUES 
@@ -79,21 +93,6 @@ VALUES
 ('no utilizado', 4, 2, '20240929', 7, 'D', 5)
 ;
 
--- Insertar datos en Departamentos
-INSERT INTO Departamentos(nombre)
-VALUES ('Lima'), ('Cusco'), ('Arequipa');
 
--- Insertar datos en Terminales
-INSERT INTO Terminales (nombre, id_destino, id_depto)
-VALUES 
-('Terminal Lima', 1, 1),
-('Terminal Cusco', 2, 2),
-('Terminal Arequipa', 2, 3);
-
--- Insertar datos en Dest_Tur_Terminal_Origen
-INSERT INTO Dest_Tur_Terminal_Origen (id_destino, id_terminal)
-VALUES 
-(1, 1),
-(2, 2);
 
 

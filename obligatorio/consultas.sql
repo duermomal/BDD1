@@ -68,7 +68,7 @@ este a�o para c/u de los destinos del pasajero cuyo correo es soyturista@gmail
 comprados en Setiembre del 2017. La lista debe estar ordenada por idviaje ascendente.
 */
 
-select dt.id_destino, count(pas.id_pasaje) cant_pasajes, left(pas.fecha_compra, 7) anio_mes_compra
+select dt.id_destino, count(pas.id_pasaje) cant_pasajes, left(pas.fecha_compra, 7) anio_mes_compra --, tur.email
 from Turistas tur 
 join Pasajes pas on tur.id_pasajero = pas.id_pasajero
 join Destinos_Turisticos dt on dt.id_destino = pas.id_destino
@@ -76,5 +76,5 @@ where
 	tur.email = 'soyturista@gmail.com' 
 	and year(pas.fecha_compra) = year(getdate()) 
 	and month(pas.fecha_compra) = 9
-group by dt.id_destino, left(pas.fecha_compra, 7)
+group by dt.id_destino, left(pas.fecha_compra, 7) --, tur.email
 order by dt.id_destino asc

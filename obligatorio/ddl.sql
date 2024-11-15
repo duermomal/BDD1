@@ -1,4 +1,4 @@
---create database ObligatorioBDD
+--create database ObligatorioBDD1
 
 CREATE TABLE Turistas (
     id_pasajero NUMERIC(20) IDENTITY NOT NULL,
@@ -13,7 +13,10 @@ CREATE TABLE Turistas (
     categoria VARCHAR(20),
     CONSTRAINT PK_TURISTAS PRIMARY KEY (id_pasajero),
     CONSTRAINT UQ_TURISTAS_DOCUMENTO UNIQUE (documento),
-    CONSTRAINT UQ_TURISTAS_EMAIL UNIQUE (email)
+    CONSTRAINT UQ_TURISTAS_EMAIL UNIQUE (email),
+	CONSTRAINT CK_TURISTAS_PASS  CHECK(len(pass) >= 8 ),
+	CONSTRAINT CK_TURISTAS_CAT  CHECK (categoria in ('Mercosur', 'Europa', 'EEUU', 'Otros')),
+	CONSTRAINT CK_TURISTAS_TD  CHECK (tipo_doc in ('CI', 'DNI', 'Pasaporte', 'Otro'))
 );
 
 CREATE TABLE Telefonos (
@@ -44,7 +47,8 @@ CREATE TABLE Buses (
     marca VARCHAR(15),
     tipo VARCHAR(15),
     cap_asientos NUMERIC(2),
-    CONSTRAINT PK_BUS PRIMARY KEY (id_bus)
+    CONSTRAINT PK_BUS PRIMARY KEY (id_bus),
+	CONSTRAINT CK_BUS_ASIENTOS CHECK(cap_asientos >= 10 AND cap_asientos <= 40)
 );
 
 

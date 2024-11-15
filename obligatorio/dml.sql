@@ -4,7 +4,7 @@ VALUES
 ('Carlos', 'Perez', 'Gomez', 'DNI', 12345678, '1990-05-14', 'carlos.perez@example.com', 'pass123', 'Mercosur'),
 ('Ana', 'Lopez', 'Diaz', 'DNI', 87654321, '1985-11-23', 'ana.lopez@example.com', 'pass456', 'EEUU'),
 ('Juan', 'Garcia', 'Romero', 'DNI', 11223344, '1992-08-30', 'juan.garcia@example.com', 'pass789', 'Europa'),
-('Axel', 'Prato', 'Romero', 'CI', 125454758, '1999-08-30', 'soyturista@gmail.com', 'pass78329', 'Mercosur');
+('Juan', 'Prato', 'Romero', 'CI', 125454758, '1999-08-30', 'soyturista@gmail.com', 'pass78329', 'Mercosur');
 
 -- Insertar datos en Telefonos
 INSERT INTO Telefonos (nro_telefono, id_pasajero)
@@ -33,8 +33,8 @@ VALUES
 ('Volvo', 'Semi-cama', 40),
 ('Mercedes', 'Cama', 30),
 ('Mercedes', 'Semi-Cama', 36),
-('Mercedes', 'Loft', 45),
-('Volvo', 'Loft', 45);
+('Mercedes', 'Loft', 40),
+('Volvo', 'Loft', 39);
 
 -- Insertar datos en Departamentos
 INSERT INTO Departamentos(nombre)

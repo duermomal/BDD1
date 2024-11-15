@@ -8,7 +8,7 @@ select top 1 with ties
 	count(pas.id_pasajero) cant_pasajes  
 from Turistas tur 
 	join Pasajes pas on tur.id_pasajero = pas.id_pasajero 
-	group by  tur.nombre
+	group by  tur.nombre, tur.id_pasajero
 	order by count(pas.id_pasajero) desc
 	
 /*
@@ -18,8 +18,8 @@ ningun destino que parta el dia de mañana.
 
 select bus.* 
 from buses bus
-left join Destinos_Turisticos dt on bus.id_bus = dt.id_bus
- where bus.cap_asientos > 35 and dt.fecha_hora <> getdate()+1 or dt.fecha_hora is null
+join Destinos_Turisticos dt on bus.id_bus = dt.id_bus
+ where bus.cap_asientos > 35 and dt.fecha_hora <> getdate()+1
 
 /*
 3. Listar todos los datos de los pasajeros para los cuales haya registrados en el sistema

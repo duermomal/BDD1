@@ -1,9 +1,9 @@
 -- Insertar datos en Turistas
 INSERT INTO Turistas (nombre, apellido_paterno, apellido_materno, tipo_doc, documento, fecha_nacimiento, email, pass, categoria)
 VALUES 
-('Carlos', 'Perez', 'Gomez', 'DNI', 12345678, '1990-05-14', 'carlos.perez@example.com', 'pass123', 'Mercosur'),
-('Ana', 'Lopez', 'Diaz', 'DNI', 87654321, '1985-11-23', 'ana.lopez@example.com', 'pass456', 'EEUU'),
-('Juan', 'Garcia', 'Romero', 'DNI', 11223344, '1992-08-30', 'juan.garcia@example.com', 'pass789', 'Europa'),
+('Carlos', 'Perez', 'Gomez', 'DNI', 12345678, '1990-05-14', 'carlos.perez@example.com', 'pass1234', 'Mercosur'),
+('Ana', 'Lopez', 'Diaz', 'DNI', 87654321, '1985-11-23', 'ana.lopez@example.com', 'pass4563', 'EEUU'),
+('Juan', 'Garcia', 'Romero', 'DNI', 11223344, '1992-08-30', 'juan.garcia@example.com', 'pass7893', 'Europa'),
 ('Juan', 'Prato', 'Romero', 'CI', 125454758, '1999-08-30', 'soyturista@gmail.com', 'pass78329', 'Mercosur');
 
 -- Insertar datos en Telefonos
